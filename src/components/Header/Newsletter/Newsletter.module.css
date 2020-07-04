@@ -1,0 +1,15 @@
+.newsletter {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-width: 0px;
+  background: transparent;
+}
+
+.helper {
+  color: #FFF;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+}

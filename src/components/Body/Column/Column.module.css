@@ -1,0 +1,16 @@
+.column {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+@media (max-width: 800px) {
+  .column {
+    flex: 1;
+  }
+}

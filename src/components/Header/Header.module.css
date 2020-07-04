@@ -1,0 +1,23 @@
+.logo {
+  display: block;
+  margin: 0 auto;
+  margin-top: 5vh;
+  filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.3));
+}
+
+.subtitle {
+  text-align: center;
+  color: #FFF;
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.mac {
+  display: block;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 20px;
+}
