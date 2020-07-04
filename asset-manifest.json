@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/wenote/static/css/main.3348d904.chunk.css",
+    "main.js": "/wenote/static/js/main.64d3aa15.chunk.js",
+    "main.js.map": "/wenote/static/js/main.64d3aa15.chunk.js.map",
+    "runtime-main.js": "/wenote/static/js/runtime-main.7a30e9c5.js",
+    "runtime-main.js.map": "/wenote/static/js/runtime-main.7a30e9c5.js.map",
+    "static/js/2.1c442ea4.chunk.js": "/wenote/static/js/2.1c442ea4.chunk.js",
+    "static/js/2.1c442ea4.chunk.js.map": "/wenote/static/js/2.1c442ea4.chunk.js.map",
+    "index.html": "/wenote/index.html",
+    "precache-manifest.fa50b836fd5a280f42b850fe762bcbe6.js": "/wenote/precache-manifest.fa50b836fd5a280f42b850fe762bcbe6.js",
+    "service-worker.js": "/wenote/service-worker.js",
+    "static/css/main.3348d904.chunk.css.map": "/wenote/static/css/main.3348d904.chunk.css.map",
+    "static/js/2.1c442ea4.chunk.js.LICENSE.txt": "/wenote/static/js/2.1c442ea4.chunk.js.LICENSE.txt",
+    "static/media/dots.png": "/wenote/static/media/dots.c6a8b358.png",
+    "static/media/header.png": "/wenote/static/media/header.305707c3.png",
+    "static/media/mac.png": "/wenote/static/media/mac.f7472936.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a30e9c5.js",
+    "static/js/2.1c442ea4.chunk.js",
+    "static/css/main.3348d904.chunk.css",
+    "static/js/main.64d3aa15.chunk.js"
+  ]
+}
