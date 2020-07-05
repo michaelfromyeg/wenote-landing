@@ -4,8 +4,10 @@ import styles from './Quote.module.css';
 function Quote() {
     return (
         <>
-            <p className={styles.quote}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <p className={styles.author}>Barack Obama</p>
+            <p className={styles.quote}>
+                Education is what remains after one has forgotten what one has learned in school.
+            </p>
+            <p className={styles.author}>Albert Einstein</p>
         </>
     );
 }

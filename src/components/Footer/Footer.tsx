@@ -1,10 +1,12 @@
 import * as React from 'react';
 import styles from './Footer.module.css';
 import WhiteDots from '../../assets/dots-white.png';
+import Orange from '../../assets/orange.png';
 
 function Footer() {
     return (
         <div className={styles.footer}>
+            <img src={Orange} className={styles.transition}></img>
             <div className={styles.row}>
                 <div className={styles.column}>
                     <p className={`${styles.address} ${styles.company}`}>weNote</p>
