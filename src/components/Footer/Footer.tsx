@@ -1,6 +1,6 @@
 import * as React from 'react';
 import styles from './Footer.module.css';
-import Dots from '../../assets/dots.png';
+import WhiteDots from '../../assets/dots-white.png';
 
 function Footer() {
     return (
@@ -16,7 +16,7 @@ function Footer() {
                     <p className={styles.copyright}>weNote © 2020</p>
                 </div>
                 <div className={styles.column}>
-                    <img src={Dots} width="30%" alt="Dots version of the weNote logo" className={styles.dots} />
+                    <img src={WhiteDots} width="30%" alt="Dots version of the weNote logo" className={styles.dots} />
                 </div>
             </div>
         </div>

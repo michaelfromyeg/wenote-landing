@@ -1,9 +1,10 @@
 .footer {
-  background-image: linear-gradient(#FF8017, #FFA800);
+  /* background-image: linear-gradient(#FF8017, #FFA800); */
   background-repeat: no-repeat, no-repeat;
   background-color: #FF8017;
   padding: 30px;
   padding-bottom: 100px;
+  /* background-image: url(../../assets/orange.svg); */
 }
 
 .column {

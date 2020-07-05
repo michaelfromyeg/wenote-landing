@@ -11,5 +11,47 @@
   text-align: center;
   font-weight: 400;
   font-size: 16px;
-  text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+  /* text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3); */
+}
+
+.form {
+  padding: 3px;
+  text-align: center;
+}
+
+.textField {
+  margin: 0;
+  border-radius: 16px 0 0 16px;
+  border: none;
+  outline: none;
+  text-align: left;
+  padding: 10px 20px;
+  line-height: 2rem;
+  font-size: inherit;
+  /* the following ensures they're all using the same box-model for rendering */
+  -moz-box-sizing: content-box; /* or `border-box` */
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.button {
+  margin: 0;
+  border-radius: 0 16px 16px 0;
+  background-color: #423E3F;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: 700;
+  padding: 10px 20px;
+  line-height: 2rem;
+  font-size: inherit;
+
+  /* The following ensures they're all using the same box-model for rendering */
+  -moz-box-sizing: content-box; /* or `border-box` */
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.fields {
+  border: none;
 }
