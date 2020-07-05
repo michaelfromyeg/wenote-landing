@@ -5,8 +5,8 @@
 }
 
 .row {
+  max-width: 1000px;
   margin: 0 auto;
-  width: 75%;
   display: flex;
   flex-direction: row;
 }
@@ -20,4 +20,10 @@
   position: relative;
   text-align: center;
   color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .row {
+    flex-direction: column;
+  }
 }

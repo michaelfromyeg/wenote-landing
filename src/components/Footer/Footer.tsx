@@ -18,7 +18,7 @@ function Footer() {
                     <p className={styles.copyright}>weNote © 2020</p>
                 </div>
                 <div className={styles.column}>
-                    <img src={WhiteDots} width="30%" alt="Dots version of the weNote logo" className={styles.dots} />
+                    <img src={WhiteDots} width={50} alt="Dots version of the weNote logo" className={styles.dots} />
                 </div>
             </div>
         </div>

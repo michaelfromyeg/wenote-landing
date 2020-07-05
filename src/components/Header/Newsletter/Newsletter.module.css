@@ -10,7 +10,9 @@
   color: #FFF;
   text-align: center;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 0.8rem;
+  max-width: 300px;
+  margin: 25px auto;
   /* text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3); */
 }
 
@@ -25,7 +27,7 @@
   border: none;
   outline: none;
   text-align: left;
-  padding: 10px 20px;
+  padding: 0.75rem 1rem;
   line-height: 2rem;
   font-size: inherit;
   /* the following ensures they're all using the same box-model for rendering */
@@ -42,7 +44,7 @@
   outline: none;
   color: white;
   font-weight: 700;
-  padding: 10px 20px;
+  padding: 0.75rem 1rem;
   line-height: 2rem;
   font-size: inherit;
 
@@ -54,4 +56,13 @@
 
 .fields {
   border: none;
+}
+
+@media screen and (max-width: 400px) {
+  .textField  {
+    padding: 0.25rem 0.5rem;
+  }
+  .button  {
+    padding: 0.25rem 0.5rem;
+  }
 }

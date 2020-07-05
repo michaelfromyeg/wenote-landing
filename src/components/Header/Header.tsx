@@ -7,10 +7,10 @@ import Mac from '../../assets/mac.png';
 function Header() {
     return (
         <div className={styles.header}>
-            <img src={Logo} width="25%" alt="weNote logo" className={styles.logo} />
+            <img src={Logo} width="75%" alt="weNote logo" className={styles.logo} />
             <p className={styles.subtitle}>Study smarter, not harder.</p>
             <Newsletter />
-            <img src={Mac} width="40%" alt="App preview" className={styles.mac} />
+            <img src={Mac} width="75%" alt="App preview" className={styles.mac} />
         </div>
     );
 }

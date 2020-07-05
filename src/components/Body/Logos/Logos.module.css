@@ -1,7 +1,8 @@
 .lines {
   display: block;
   margin: 0 auto;
-  width: 15%;
+  width: 75%;
+  max-width: 300px;
   border-top: 3px solid #000;
   border-bottom: 3px solid #000;
 }
