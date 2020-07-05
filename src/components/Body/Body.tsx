@@ -8,7 +8,7 @@ import White from '../../assets/white.png';
 function Body() {
     return (
         <>
-            <img src={White} className={styles.transition}></img>
+            <img src={White} className={styles.transition} alt="White transition"></img>
             <div className={styles.body}>
                 <div className={styles.row}>
                     <Column
