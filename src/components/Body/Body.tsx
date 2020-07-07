@@ -1,7 +1,7 @@
 import * as React from 'react';
 import styles from './Body.module.css';
 import Column from './Column/Column';
-import Logos from './Logos/Logos';
+// import Logos from './Logos/Logos';
 import Quote from './Quote/Quote';
 import White from '../../assets/white.png';
 
@@ -24,7 +24,7 @@ function Body() {
                         body="Tired of getting vague answers to your questions? weNote gives you a way to meaningfully connect with your professors and teaching assistants, making online education personable."
                     />
                 </div>
-                <Logos />
+                {/* <Logos /> */}
                 <Quote />
             </div>
         </>
