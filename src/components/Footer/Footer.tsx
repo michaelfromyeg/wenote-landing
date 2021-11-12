@@ -15,7 +15,7 @@ function Footer() {
                     <p className={styles.address}>admin@wenote.ca</p>
                 </div>
                 <div className={styles.column}>
-                    <p className={styles.copyright}>weNote © 2020</p>
+                    <p className={styles.copyright}>weNote © 2021</p>
                 </div>
                 <div className={styles.column}>
                     <img src={WhiteDots} width={50} alt="Dots version of the weNote logo" className={styles.dots} />
